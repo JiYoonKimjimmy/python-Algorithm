@@ -14,6 +14,6 @@ def selectionSort(arr):
     return arr
 
 
-arr = random.sample(range(1, 50), 7) # 랜덤 배열 선언
-print(arr) # 정렬 전
-print(selectionSort(arr)) # 정렬 후
+arr = random.sample(range(1, 50), 7)
+print(arr)
+print(selectionSort(arr))
