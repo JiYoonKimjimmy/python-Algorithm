@@ -11,6 +11,8 @@ def selectionSort(arr):
 
         arr[max], arr[j] = arr[j], arr[max]
 
+        print(arr)
+
     return arr
 
 
