@@ -1,4 +1,5 @@
 def combination(arr, r):
+    # [Combination] 조합 경우의 수
     # 1.
     arr = sorted(arr)
 
