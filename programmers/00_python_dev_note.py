@@ -40,6 +40,16 @@ def reduceTest():
     print('reduce test :', reduce(lambda a, b: a + b, li))
 
 
+def zipTest():
+    # [zip]
+    # - 같은 길이의 list 를 같은 index 끼리 잘라서 새로운 list 로 반환
+    a = [1, 2, 3, 4, 5]
+    b = ['a', 'b', 'c']
+
+    for x, y in zip(a, b):
+        print('zip test :', x, '-', y)
+
+
 # lambda
 lambdaTest()
 
@@ -54,3 +64,6 @@ filterTest()
 
 # reduce
 reduceTest()
+
+# zip
+zipTest()
