@@ -50,6 +50,15 @@ def zipTest():
         print('zip test :', x, '-', y)
 
 
+def sortTest():
+    # [sort]
+    # - 정렬 method
+    # - key 매개변수를 통해서 object 정렬 가능
+    li = [['a', 20], ['b', 30], ['c', 10]]
+    li = sorted(li, key=lambda k:k[1], reverse=True)
+    print('sort test : ', li)
+
+
 # lambda
 lambdaTest()
 
@@ -67,3 +76,6 @@ reduceTest()
 
 # zip
 zipTest()
+
+# sorted
+sortTest()
