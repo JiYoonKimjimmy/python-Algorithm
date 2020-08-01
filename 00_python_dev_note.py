@@ -60,6 +60,14 @@ def sortTest():
     print('sort test : ', li)
 
 
+def execTest():
+    # [exec]
+    # - 문자열로 표현된 구문을 python complie code 로 변환
+    a = 4
+    exec('a = a + 5')
+    print('exec test : ', a)
+
+
 # lambda
 lambdaTest()
 
@@ -80,3 +88,6 @@ zipTest()
 
 # sorted
 sortTest()
+
+# exec
+execTest()
